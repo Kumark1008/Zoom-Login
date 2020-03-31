@@ -17,8 +17,8 @@ class HomePage extends React.Component {
         const { user, users } = this.props;
         return (
             <div className="col-md-6 col-md-offset-3">
-                <h1>Hi {user.firstName}!</h1>
-                <p>You're logged in with React!!</p>
+                <h1>Hi {user.firstName}! wel-come To BlynkSpeak</h1>
+                <p>You're logged in to Blynkspeak zoom application!!</p>
                 <h3>All registered users:</h3>
                 {users.loading && <em>Loading users...</em>}
                 {users.error && <span className="text-danger">ERROR: {users.error}</span>}
